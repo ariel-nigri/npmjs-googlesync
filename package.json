@@ -1,0 +1,47 @@
+{
+  "name": "@bynigri/googlesync",
+  "version": "1.0.0",
+  "description": "Sincroniza pastas e planilhas do Google Drive para arquivos locais, guiado por um spec JSON, via service account (somente leitura).",
+  "keywords": [
+    "google-drive",
+    "google-sheets",
+    "sync",
+    "tsv",
+    "xlsx",
+    "service-account"
+  ],
+  "license": "MIT",
+  "author": "Ariel Nigri <ariel@nigri.me>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bynigri/googlesync.git"
+  },
+  "type": "module",
+  "main": "lib/googlesync.mjs",
+  "exports": {
+    ".": "./lib/googlesync.mjs",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "runsync": "bin/runsync.mjs"
+  },
+  "files": [
+    "lib/",
+    "bin/",
+    "syncparams.example.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "sync": "node bin/runsync.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "googleapis": "^178.1.1"
+  },
+  "optionalDependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "id": "COLOQUE_AQUI_O_ID_DA_PASTA",
+        "type": "folder",
+        "recursive": true,
+        "dest": "data/img",
+        "pattern": "^[0-9]{1,3}[_-]",
+        "mimeTypes": [
+            "image/png",
+            "image/jpeg"
+        ],
+        "text": "ignore"
+    },
+    {
+        "id": "COLOQUE_AQUI_O_ID_DA_PLANILHA",
+        "type": "sheet",
+        "format": "tsv",
+        "sheetName": "Nome da aba",
+        "dest": "data/_incoming",
+        "name": "saida"
+    },
+    {
+        "id": "COLOQUE_AQUI_O_ID_DO_DOC",
+        "type": "text",
+        "format": "md",
+        "dest": "data/docs",
+        "name": "manual"
+    }
+]

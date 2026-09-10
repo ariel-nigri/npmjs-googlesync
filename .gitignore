@@ -1,0 +1,11 @@
+node_modules/
+*.tgz
+
+# Credenciais — nunca versionar
+.env
+*.service-account*.json
+.service-account-creds.json
+
+# Spec e saídas reais do projeto (o versionado é o .example)
+syncparams.json
+data/

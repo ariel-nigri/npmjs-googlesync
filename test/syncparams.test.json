@@ -1,0 +1,48 @@
+[
+    {
+        "id": "1N7LcmOd2AxWeLbmXWNYJFxH3YqvvJOCEHkFG-CVuuv4",
+        "type": "text",
+        "format": "txt",
+        "dest": "data/docs",
+        "name": "doc_txt"
+    },
+    {
+        "id": "1K374wBB27IvPyMCQ_wsDALbxv5bMdbHm",
+        "type": "text",
+        "dest": "data/docs",
+        "name": "enviado_md"
+    },
+    {
+        "id": "1qBOQ7IG9jXfh3APa_bCMlHdwmwAjyr7h",
+        "type": "text",
+        "dest": "data/docs",
+        "name": "enviado_txt"
+    },
+    {
+        "id": "1mMul3Xl7oDSmHnkw_ZdLgtsfZia7oPu4OtQUPpSibnQ",
+        "type": "sheet",
+        "format": "tsv",
+        "sheetName": "Aba_a_exportar",
+        "dest": "data/_incoming",
+        "name": "planilha"
+    },
+    {
+        "id": "1SzToWAiOEW-IulXKiHBOb_pY1loxXG75",
+        "type": "sheet",
+        "format": "json",
+        "sheetName": "Plan2",
+        "dest": "data/_incoming",
+        "name": "enviada"
+    },
+    {
+        "id": "15sVQZhwBV_J1YjHI_xF-n4utl0vQR0Qb",
+        "type": "folder",
+        "recursive": true,
+        "dest": "data/img",
+        "pattern": "^[0-9]{1,3}[_-]",
+        "mimeTypes": [
+            "image/png",
+            "image/jpeg"
+        ]
+    }
+]
