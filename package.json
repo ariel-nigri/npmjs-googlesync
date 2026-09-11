@@ -1,6 +1,6 @@
 {
   "name": "@bynigri/googlesync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sincroniza pastas e planilhas do Google Drive para arquivos locais, guiado por um spec JSON, via service account (somente leitura).",
   "keywords": [
     "google-drive",
@@ -14,7 +14,7 @@
   "author": "Ariel Nigri <ariel@nigri.me>",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bynigri/googlesync.git"
+    "url": "git+ssh://git@github.com/ariel-nigri/npmjs-googlesync.git"
   },
   "type": "module",
   "main": "lib/googlesync.mjs",
